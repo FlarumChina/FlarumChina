@@ -20,9 +20,14 @@ composer create-project flarum/flarum . --stability=beta
 
 Read the [Installation Guide](http://flarum.org/docs/installation) for more information.
 
+## Development
+
+This repository holds the Flarum skeleton application.
+Its dependencies, such as [flarum/core](https://github.com/flarum/core) (where most development happens), have to be installed using [Composer](https://getcomposer.org/).
+
 ## Support
 
-Refer to the [FAQ](http://flarum.org/docs/faq), [Documentation](http://flarum.org/docs), and ask questions on the [Community Forum](http://discuss.flarum.org) or [Gitter Chat](https://gitter.im/flarum/flarum).
+Refer to the [FAQ](http://flarum.org/docs/faq), [Documentation](http://flarum.org/docs), and ask questions on the [Community Forum](http://discuss.flarum.org) or [Discord Chat](http://flarum.org/discord).
 
 ## Contributing
 
