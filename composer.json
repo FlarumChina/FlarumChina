@@ -32,7 +32,7 @@
             }
     ],
     "require": {
-        "flarum/core": "dev-master#fe03a710807217c00ca5079557ea332e3379041f",
+        "flarum/core": "^0.1.0",
         "flarum/flarum-ext-akismet": "^0.1.0",
         "flarum/flarum-ext-approval": "^0.1.0",
         "flarum/flarum-ext-auth-facebook": "^0.1.0",
