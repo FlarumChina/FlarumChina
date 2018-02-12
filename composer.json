@@ -20,8 +20,19 @@
         "source": "https://github.com/flarum/flarum",
         "docs": "http://flarum.org/docs"
     },
+    "repositories":
+    [
+            {
+                "type": "vcs",
+                "url": "https://github.com/FlarumChina/core.git"
+            },
+            {
+                "type": "vcs",
+                "url": "https://github.com/FlarumChina/flarum-ext-mentions.git"
+            }
+    ],
     "require": {
-        "flarum/core": "^0.1.0",
+        "flarum/core": "dev-master#fe03a710807217c00ca5079557ea332e3379041f",
         "flarum/flarum-ext-akismet": "^0.1.0",
         "flarum/flarum-ext-approval": "^0.1.0",
         "flarum/flarum-ext-auth-facebook": "^0.1.0",
@@ -39,7 +50,8 @@
         "flarum/flarum-ext-sticky": "^0.1.0",
         "flarum/flarum-ext-subscriptions": "^0.1.0",
         "flarum/flarum-ext-suspend": "^0.1.0",
-        "flarum/flarum-ext-tags": "^0.1.0"
+        "flarum/flarum-ext-tags": "^0.1.0",
+        "flarumchina/flarum-ext-simplified-chinese-pro": "dev-master#982a019fada5b98cd0a6be26eb746c4940482754"
     },
     "require-dev": {
         "franzl/studio": "^0.11.0"
