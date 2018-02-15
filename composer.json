@@ -1,9 +1,9 @@
 {
-    "name": "flarum/flarum",
-    "description": "Delightfully simple forum software.",
+    "name": "flarumchina/flarumchina",
+    "description": "一个简单新颖的论坛软件",
     "type": "project",
     "keywords": ["forum", "discussion"],
-    "homepage": "http://flarum.org",
+    "homepage": "https://www.flarumchina.org",
     "license": "MIT",
     "authors": [
         {
@@ -13,23 +13,25 @@
         {
             "name": "Franz Liedke",
             "email": "franz@develophp.org"
+        },
+        {
+            "name": "Zhenhong Hou",
+            "email": "houzhenhong@flarumchina.org"
         }
     ],
     "support": {
-        "issues": "https://github.com/flarum/core/issues",
-        "source": "https://github.com/flarum/flarum",
-        "docs": "http://flarum.org/docs"
+        "issues": "https://github.com/FlarumChina/flarumchina/issues",
+        "source": "https://github.com/FlarumChina/flarumchina",
+        "docs": "https://wiki.flarumchina.org"
     },
     "repositories":
     [
-            {
-                "type": "vcs",
-                "url": "https://github.com/FlarumChina/core.git"
-            },
-            {
-                "type": "vcs",
-                "url": "https://github.com/FlarumChina/flarum-ext-mentions.git"
-            }
+            {"type": "vcs", "url": "https://github.com/FlarumChina/core.git"},
+            {"type": "vcs", "url": "https://github.com/FlarumChina/flarum-ext-mentions.git"},
+            {"type": "vcs", "url": "https://github.com/FlarumChina/flarum-ext-recaptcha.git"},
+            {"type": "vcs", "url": "https://github.com/FlarumChina/flarum-ext-markdown-editor.git"},
+            {"type": "vcs", "url": "https://github.com/FlarumChina/users-list.git"},
+            {"type": "vcs", "url": "https://github.com/FlarumChina/flarum-ext-sitemap-chinese.git"}
     ],
     "require": {
         "flarum/core": "^0.1.0",
@@ -51,7 +53,11 @@
         "flarum/flarum-ext-subscriptions": "^0.1.0",
         "flarum/flarum-ext-suspend": "^0.1.0",
         "flarum/flarum-ext-tags": "^0.1.0",
-        "flarumchina/flarum-ext-simplified-chinese-pro": "dev-master#982a019fada5b98cd0a6be26eb746c4940482754"
+        "flarumchina/flarum-ext-simplified-chinese-pro": "^0.1.0",
+        "sijad/flarum-ext-recaptcha": "^0.0.3",
+        "ganuonglachanh/flarum-ext-markdown-editor": "^0.1.0",
+        "flagrow/users-list": "^0.1.3",
+        "terabin/flarum-ext-sitemap": "^1.0.4"
     },
     "require-dev": {
         "franzl/studio": "^0.11.0"
