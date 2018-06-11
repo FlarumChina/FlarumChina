@@ -54,7 +54,8 @@
         "flarum/flarum-ext-tags": "dev-master"
     },
     "config": {
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "sort-packages": true
     },
     "minimum-stability": "beta",
     "prefer-stable": true
